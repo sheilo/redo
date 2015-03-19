@@ -20,7 +20,9 @@
 	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
-
+body {
+	background:#e16461;
+}
 ul {
 	list-style:none;
 }
