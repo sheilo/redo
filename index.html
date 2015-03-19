@@ -17,43 +17,86 @@
 </head>
 
 <body>
+  <div class="ui grid page">
+    <div class="heading row">
 
-  <header>
-    <img src="img/logo.png"  alt="Personal Logo">
-    <h1>Cassandra Baden</h1>
-    <h2>Graphic Designer &#124; Illustrator</h2>
-    <p>My intention is to use simple designs to illustrate a more complex idea.</p>
-    <p><a href="mailto:cassbaden@gmail.com">Please email me for work!</a></p>
-    <p><a href="https://www.behance.net/cassandrabaden">Behance Gallery</a></p>
-  </header>
+      <header class="five wide column">
+        <img src="img/logo.png"  alt="Personal Logo">
+      </header>
+     
+      <section class="six wide column">
+        
+        <h1>Cassandra Baden</h1>
+        <h2>Graphic Designer &#124; Illustrator</h2>
 
-  <div class="gallery">
-    <div class="superbox-list">
-      <img src="img/cutebox1_thumb.jpg" data-img="img/cutebox1.jpg" alt="" class="superbox-img">
-    </div><!--
-    --><div class="superbox-list">
-      <img src="img/cutebox2_thumb.jpg" data-img="img/cutebox2.jpg" alt="" class="superbox-img">
-    </div><!--
-    --><div class="superbox-list">
-      <img src="img/cutebox3_thumb.jpg" data-img="img/cutebox3.jpg" alt="" class="superbox-img">
-    </div><!--
-    --><div class="superbox-list">
-      <img src="img/cutebox4_thumb.jpg" data-img="img/cutebox4.jpg" alt="" class="superbox-img">
-    </div><!--
-    --><div class="superbox-list">
-      <img src="img/cutebox5_thumb.jpg" data-img="img/cutebox5.jpg" alt="" class="superbox-img">
-    </div><!--
-    --><div class="superbox-list">
-      <img src="img/enderme_thumb.png" data-img="img/enderme.png" alt="" class="superbox-img">
-    </div><!--
-    --><div class="superbox-list">
-      <img src="img/yogfanart_thumb.png" data-img="img/yogfanart.png" alt="" class="superbox-img">
+      </section> 
+
+      <section class="five wide column statement">
+        <p>My intention is to use simple designs to illustrate a more complex idea.</p>
+        <ul>
+          <li><a href="mailto:cassbaden@gmail.com">Please email me for work!</a></li>
+          <li><a href="https://www.behance.net/cassandrabaden">Behance Gallery</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="content row">
+        <section class="eight wide column">
+          <h2>Education</h2>
+          <h3>Bachelor of Art in Visual Communication Design</h3>
+          <p>Eastern Washington University, Cheney WA</p>
+          <p>Expected to graduate in June 2015</p>
+          <p>Dean’s List &#124; 3.66 GPA</p>
+        </section>
+        <section class="eight wide column">
+        <h2>Experience</h2>
+        <h3>Designer and Video Producer</h3>
+        <p>Eastern Washington University Library, Cheney WA</p>
+        <p>January to March 2014</p>
+        <p>Provided the EWU library with tutorial videos after researching their new catolog system, explaining in three narrated videos the process of searching for material and locating it in the library, and made PDF guides for additional help for students.</p>
+      </section>
+    </div>
+
+    <div class="content row">
+      <div class="gallery">
+        <h1>Portfolio Gallery</h1>
+        <h3>Design and Illustration Combined</h3>
+        <div class="superbox-list">
+          <img src="img/cutebox1_thumb.jpg" data-img="img/cutebox1.jpg" alt="" class="superbox-img">
+        </div><!--
+        --><div class="superbox-list">
+          <img src="img/cutebox2_thumb.jpg" data-img="img/cutebox2.jpg" alt="" class="superbox-img">
+        </div><!--
+        --><div class="superbox-list">
+          <img src="img/cutebox3_thumb.jpg" data-img="img/cutebox3.jpg" alt="" class="superbox-img">
+        </div><!--
+        --><div class="superbox-list">
+          <img src="img/cutebox4_thumb.jpg" data-img="img/cutebox4.jpg" alt="" class="superbox-img">
+        </div><!--
+        --><div class="superbox-list">
+          <img src="img/cutebox5_thumb.jpg" data-img="img/cutebox5.jpg" alt="" class="superbox-img">
+        </div><!--
+        --><div class="superbox-list">
+          <img src="img/enderme_thumb.png" data-img="img/enderme.png" alt="" class="superbox-img">
+        </div><!--
+        --><div class="superbox-list">
+          <img src="img/yogfanart_thumb.png" data-img="img/yogfanart.png" alt="" class="superbox-img">
+        </div>
+      </div>
     </div>
   </div>
   
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
   <script src="js/semantic.min.js"></script>
   <script src="js/superbox.min.js"></script>
+  <script>
+    $(function() {
+    
+      // Call SuperBox
+      $('.superbox').SuperBox();
+    
+    });
+    </script>
   <script src="js/scripts.js"></script>
 
 </body>

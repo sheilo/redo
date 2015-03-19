@@ -1,8 +1,9 @@
 /**
 LAYOUT
 **/
-.gallery{
-	float: right;
+.content {
+	position: absolute;
+	background: rgb(255, 255, 255);
 }
 
 .superbox-list {
@@ -13,17 +14,19 @@ LAYOUT
 }
 
 /**
-SIDEBAR
+HEADER
 **/
 
-header{
+.heading{
 	background: rgb(120, 214, 75);
-	width: 30%;
-	height: 110%;
-	padding: 10px;
+}
+
+.statement{
+	padding: 40px 10px;
 }
 
 img {
+	padding-top: 30px;
 	width: 100%;
 }
 
@@ -47,16 +50,16 @@ h3  {
 	font-weight: 700;
 }
 
-header h1,
-header h2, 
-header h3, 
-header p,
-header a {
+.heading h1,
+.heading h2, 
+.heading h3, 
+.heading p,
+.heading a {
 	color: rgb(255, 255, 255);
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 }
 
 h2 {
@@ -74,4 +77,12 @@ a:active{
 	color: rgb(120, 214, 75);
 	background: rgb(255, 255, 255);
 	transition: background .55s;
+}
+
+.content h1, 
+.content h2, 
+.content h3,
+.content p{
+	margin: 0;
+	color: rgb(120, 214, 75);
 }
