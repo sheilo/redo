@@ -58,6 +58,25 @@ h3  {
 	color: rgb(255, 255, 255);
 }
 
+.heading h1:hover,
+.heading h2:hover, 
+.heading h3:hover, 
+.heading p:hover,
+.heading a:hover {
+	font-weight: 700;
+	transition: color .55s;
+}
+
+.content p:hover, 
+.content h1:hover, 
+.content h2:hover, 
+.content h3:hover{
+	color: rgb(12, 34, 11);
+	font-weight: 700;
+	transition: color .55s;
+}
+
+
 h1 {
 	font-size: 3em;
 }
